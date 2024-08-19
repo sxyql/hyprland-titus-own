@@ -11,15 +11,13 @@ Ensure base-devel is installed before proceeding
 **Important**: Execute the following commands as a regular user, NOT as root!
 
 ```
-git clone https://aur.archlinux.org/yay-bin
-cd yay-bin
-makepkg -si
+git clone https://aur.archlinux.org/yay-bin && cd yay-bin && makepkg -si
 ```
 
 ### Required Packages
 
 ``` bash
-yay -S hyprland polkit-gnome ffmpeg neovim viewnior rofi      \
+yay -Sy hyprland polkit-gnome ffmpeg neovim viewnior rofi      \
 pavucontrol thunar starship wl-clipboard wf-recorder swaybg   \
 grimblast-git ffmpegthumbnailer tumbler playerctl             \
 noise-suppression-for-voice thunar-archive-plugin kitty       \
