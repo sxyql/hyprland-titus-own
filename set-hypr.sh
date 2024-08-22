@@ -46,7 +46,7 @@ if [[ $inst =~ ^[Nn]$ ]]; then
         fi
 
 if [[ $inst =~ ^[Yy]$ ]]; then
-   git_pkgs="grimblast-git sddm-git hyprpicker-git gbar-git"
+   git_pkgs="grimblast-git sddm-git hyprpicker gbar-git"
    hypr_pkgs="hyprland wl-clipboard wf-recorder rofi wlogout dunst hyprpaper kitty hyprcursor hyprlang"    
    font_pkgs="ttf-nerd-fonts-symbols-common otf-firamono-nerd inter-font otf-sora ttf-fantasque-nerd noto-fonts noto-fonts-emoji ttf-comfortaa"
    font_pkgs2="ttf-jetbrains-mono-nerd ttf-icomoon-feather ttf-iosevka-nerd adobe-source-code-pro-fonts"
